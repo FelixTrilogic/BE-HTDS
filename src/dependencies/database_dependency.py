@@ -4,7 +4,7 @@ from src.infrastructures.databases.database import postgres
 
 
 def get_sample_db() -> Generator[Session, None, None]:
-    db: Session = postgres("belajar")
+    db: Session = postgres("htds")
     try:
         yield db
     finally:

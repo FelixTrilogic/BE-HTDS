@@ -2,7 +2,9 @@ from typing import Any, Dict
 
 import yaml
 import os
+from dotenv import load_dotenv
 
+load_dotenv(".env")
 
 class App:
     port: int

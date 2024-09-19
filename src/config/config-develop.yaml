@@ -7,9 +7,9 @@ app:
 
 
 database:
-  belajar:
+  htds:
     host: "localhost"
     port: 5432
-    name: "belajar"
+    name: "HTDS"
     username: "postgres"
-    password: "root"
+    password: "password"
